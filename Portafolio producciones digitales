@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de producciones digitales</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(to bottom right, #e0f2ff, #a1c4fd);
+      color: #0a2a43;
+      padding: 40px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+      position: relative;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      color: #0a2a43;
+    }
+
+    .ps-logo {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 60px;
+    }
+
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card h3 {
+      font-size: 1.2em;
+      color: #094b8a;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.95em;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: white;
+      background-color: #0072c6;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-weight: bold;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .card a:hover {
+      background-color: #005a9e;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #2d5875;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    
+    <h1>Portafolio de producciones digitales</h1>
+    <img class="ps-logo" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="Photoshop Logo">
+  </header>
+
+  <section class="portfolio">
+
+    
+    <div class="card">
+      <h3>Cambio de rostro</h3>
+      <p>Este trabajo contiene un cambio de rostro, utilizando dos imagenes, y dos capas.</p>
+      <a href="https://drive.google.com/file/d/1cxEEJ43IX9OT_N9Tv6QJfaucI_P6Yq5A/view?usp=drive_link" target="_blank">Ver archivo PSD</a>
+    </div>
+
+    
+    <div class="card">
+      <h3>Ojos Realistas</h3>
+      <p>En este archivo realice ojos realistas con formas y filtros.</p>
+      <a href="https://drive.google.com/file/d/16kZWYI_Cn1V4ahYN1dNKePc_Lam0sShS/view?usp=drive_link" target="_blank">Ver archivo PSD</a>
+    </div>
+
+    
+     <div class="card">
+      <h3>Imagen dispersa</h3>
+      <p>En esta imagen edite una imagen para que tenga el efecto de dispersion, utilizando pinceles.</p>
+      <a href="https://drive.google.com/file/d/1cPoiNYm2uW4g9eVvHtg2QaPvfqByKy7L/view?usp=drive_link" target="_blank">Ver archivo PSD</a>
+    </div>
+
+      <div class="card">
+      <h3>Explosion Sideral</h3>
+      <p>En esta imagen tenemos una explosion realizada nada mas con filtros.</p>
+      <a href="https://drive.google.com/file/d/1VFq2F8k3v-INNLCHaGQINcljsbPMujJA/view?usp=drive_link" target="_blank">Ver archivo PSD</a>
+    </div>
+
+     <div class="card">
+      <h3>Portada de pelicula</h3>
+      <p>Utlizando dos imagenes,realice una portada para una pelicula de terror.</p>
+      <a href="https://drive.google.com/file/d/1cAb72sN63DM4vQ5RVZFMIjfl28W-iTN_/view?usp=drive_link" target="_blank">Ver archivo PSD</a>
+    </div>
+
+    <div class="card">
+      <h3>Imagen Vectorizada </h3>
+      <p>Este es un ejercicio sencillo en el que una imagen de una forma esta vectorizada.</p>
+      <a href="https://drive.google.com/file/d/1cAb72sN63DM4vQ5RVZFMIjfl28W-iTN_/view?usp=drive_link" target="_blank">Ver archivo PSD</a>
+    </div>
+
+    <div class="card">
+      <h3>Logo con formas </h3>
+      <p>En esta imagen realice un logo son con formas y texto.</p>
+      <a href="https://drive.google.com/file/d/1QAcVasoir-ysKjHMms-D4ijoQ3SSBP-s/view?usp=drive_link" target="_blank">Ver archivo PSD</a>
+    </div>
+
+    <div class="card">
+      <h3>Relleno de trazado </h3>
+      <p>En este ejercicio rellene una imagen y le cambie el color y la rasterice.</p>
+      <a href="https://drive.google.com/file/d/14auzBdHjifARqwap_FQ8Sg0P0UE47VZw/view?usp=drive_link" target="_blank">Ver archivo PSD</a>
+    </div>
+
+    <div class="card">
+      <h3> Carro editado </h3>
+      <p>En este ejercicio edite una imagen de un auto, y le cambie el color utilizando la herramienta boligrafo.</p>
+      <a href="https://drive.google.com/file/d/1u-u8u0qa0TIQmYhHqGpuhnsROrZFlqPn/view?usp=drive_link" target="_blank">Ver archivo PSD</a>
+    </div>
+
+     <div class="card">
+      <h3>Saliendo de la foto </h3>
+      <p>En esta imagen, hice un efecto "saliendo de la foto" con formas y filtros.</p>
+      <a href="https://drive.google.com/file/d/1rTaOS4pVThzKj_HpsKFhR-4E56smWwTw/view?usp=drive_link" target="_blank">Ver archivo PSD</a>
+    </div>
+
+    <div class="card">
+      <h3>Rostro grisaceo </h3>
+      <p> Le añadi un filtro de blanco y negro a una foto con color, para que tuviese este efecto.</p>
+      <a href="https://drive.google.com/file/d/1zeFlLg31EeHFfZwtZvseYeI6dShdzC3y/view?usp=drive_link" target="_blank">Ver archivo PSD</a>
+    </div>
+
+    <div class="card">
+      <h3>Fotografia restaurada </h3>
+      <p> Haciendo uso de una imagen dañada, la restaure con el borrador de historia y otras herramientas.</p>
+      <a href="https://drive.google.com/file/d/13354NJVElZ4OYFRxjkimN_ghGqbuynaE/view?usp=drive_link" target="_blank">Ver archivo PSD</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Gaby Mejía - Producciones digitales
+  </footer>
+
+</body>
+</html>
